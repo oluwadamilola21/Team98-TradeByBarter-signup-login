@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <script src="https://use.fontawesome.com/1184194b70.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Sign Up</title>
+</head>
+<body>
+    <div class="container1">
+        <div class="img2">
+          <img src="./images/Group 4 (1).svg" alt="signup-image">
+        </div>
+        <div class="box2">
+            <form action="" method="get">
+                <h1>Create Account</h1>
+                <div class="input-box">
+                    <label for="fullname">Full Name</label><br>
+                    <input type="text" id="fullname" class="input3" minlength="6"  required autofocus/>
+                </div>
+                <div class="validation-messages">
+                    <span class="hide"></span> 
+                </div>
+            
+                <div class="input-box">
+                    <label for="phone">Phone Number</label><br>
+                    <input type="number" id="phone-number" class="input3" minlength="4" maxlength="15" required autofocus/>
+                </div>
+                <div class="validation-messages">
+                    <span class="hide1"></span> 
+                </div>
+            
+                <div class="input-box">
+                    <label for="email">Email Address</label><br>
+                    <input type="email"id="email" class="input3" required autofocus/>
+                </div>
+                <div class="validation-messages">
+                    <span class="hide2"></span> 
+                </div>  
+            
+                <div class="input-box">
+                    <label for="country">Country</label><br>
+                    <input type="text" id="country" class="input3" required autofocus />
+                </div>
+                <div class="validation-messages">
+                    <span class="hide3"></span>
+                </div>
+            
+                <div class="input-box">
+                    <label for="state">State Of Residence</label><br>
+                    <input type="text" id="state" class="input3" required autofocus />
+                </div>
+                <div class="validation-messages">
+                    <span class="hide4"></span>
+                </div>
+            
+                <div class="input-box">
+                    <label for="password">Password</label><br>
+                    <input type="password" id="password" class="input3" minlength="6" required autofocus /> <span> <i class="fa fa-eye" id="toggle-password"></i> </span>
+                </div>
+                <div class="validation-messages">
+                    <span class="hide5"></span>
+                </div>
+            
+                <div class="input-box">
+                    <label for="confirm"> Confirm Password</label><br>
+                    <input type="password" id="confirm" class="input3" required autofocus /> <span> <i class="fa fa-eye" id="toggle-password2"></i> </span>
+                </div>
+                <div class="validation-messages">
+                    <span class="hide6"></span>
+                </div>
+            
+                <div class="submission">
+                    <button class="btn-sign"type="submit">Sign Up</button><br>
+                    <span>I'm already a member, <a href="login.html" target="_blank">Log In</a></span>
+                </div>
+                
+            </form>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
